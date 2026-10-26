@@ -47,7 +47,7 @@ const projects = {
       zh: "按住旋转键使鼓盘转动，点按击打键敲击。鼓 1：A/D/S；鼓 2：小键盘 7/9/8；鼓 3：小键盘 4/6/5；鼓 4：小键盘 1/3/2。"
     },
     website: "https://www.jamodrum.net/",
-    download: "https://github.com/AsagamiY/bvw-game-builds/releases/tag/r4-dumpling-samurai-v1.0",
+    download: "https://github.com/AsagamiY/bvw-game-builds/releases/tag/r4-dumpling-samurai-v1.6-preview",
     notice: {
       en: "A device pairing issue can cause sensitivity problems when playing with a keyboard and numpad. For now, we recommend watching the trailer instead of playing. This issue is being fixed.",
       zh: "由于设备配对问题，使用键盘和小键盘游玩时可能会出现灵敏度问题。目前建议先观看预告片，而不是实际游玩。此问题正在修复中。"
