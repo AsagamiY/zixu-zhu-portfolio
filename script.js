@@ -15,9 +15,10 @@ const projects = {
     description: "A single-player escape game inspired by The Shawshank Redemption, designed for the Xbox Adaptive Controller.",
     descriptionZh: "一款受《肖申克的救赎》启发、为 Xbox Adaptive Controller 设计的单人逃生游戏。",
     download: "https://github.com/AsagamiY/bvw-game-builds/releases/tag/r1-escape-march-v1.0",
+    videoLink: "assets/escape-march-xac-demo.mp4",
     controls: {
-      en: "Press Space to start, E to pick up the hammer, and Q to hit the wall.",
-      zh: "按 Space 开始，按 E 拾取锤子，按 Q 击打墙壁。"
+      en: "Xbox Adaptive Controller (XAC): the intended play setup; click the linked controller name in the description above to watch the gameplay video.\nPC keyboard fallback: Space — start/restart; E — pick up the hammer; Q — strike the wall.",
+      zh: "Xbox Adaptive Controller（XAC）：本游戏的目标游玩方式；点击上方简介中的控制器名称即可观看实机视频。\nPC 键盘替代操作：Space — 开始/重开；E — 拾取锤子；Q — 击打墙壁。"
     }
   },
   "big-top-quiz": {
@@ -28,29 +29,29 @@ const projects = {
     descriptionZh: "一款为滚轮街机 console 开发的独轮车竞速答题小游戏，题目难度会根据玩家之前的答题情况动态变化。",
     download: "https://github.com/AsagamiY/bvw-game-builds/releases/tag/r3-big-top-quiz-v1.0",
     controls: {
-      en: "Start screen: Press P, O, or I; the first press opens the instructions and the next enters MainGame. In game, move the mouse forward to speed up, back to slow down, and left or right to steer. Press E to close the tutorial and start riding. Press P, O, or I to answer A, B, or C. Esc or Alt+F4 quits.",
-      zh: "开始界面：按 P、O 或 I，第一次进入操作说明，再按一次进入 MainGame。游戏中，鼠标向前移动加速、向后移动减速、左右移动转向。按 E 关闭教学并开始骑行；按 P、O、I 分别选择 A、B、C。按 Esc 或 Alt+F4 退出。"
+      en: "Title screen — press P, O, or I once to open Instructions.\nInstructions — press P, O, or I again to load MainGame.\nMainGame tutorial — press E to close the tutorial and begin riding.\nRiding — move the mouse up to accelerate, down to slow down, and left/right to steer.\nQuiz — press P for A, O for B, or I for C.\nQuit — press Esc or Alt+F4.",
+      zh: "标题界面 — 按一次 P、O 或 I 打开操作说明。\n操作说明界面 — 再按一次 P、O 或 I 加载 MainGame。\nMainGame 教学 — 按 E 关闭教学并开始骑行。\n骑行 — 鼠标上移加速、下移减速、左/右移动转向。\n答题 — 按 P 选择 A、按 O 选择 B、按 I 选择 C。\n退出 — 按 Esc 或 Alt+F4。"
     }
   },
   "dumpling-samurai": {
     index: "BVW",
     title: "Dumpling Samurai",
     titleImage: "assets/type-images/dumpling-samurai.png",
-    description: "A four-player competitive game designed for Jam-O-Drum. Players are dumplings seeking more fillings, collecting them and battling one another to win.",
-    descriptionZh: "一款为 Jam-O-Drum 设计的四人对战游戏。玩家扮演希望获得更多馅料的饺子，通过收集和对战互相争夺馅料。",
+    description: "Dumpling Samurai is the project name; the supplied V1.6 build and promotional art use the title OverStuffed!. It is a four-player competitive game designed for Jam-O-Drum. Players are dumplings seeking more fillings, collecting them and battling one another to win.",
+    descriptionZh: "项目名称为 Dumpling Samurai；随附的 V1.6 版本与宣传图使用 OverStuffed! 标题。这是一款为 Jam-O-Drum 设计的四人对战游戏。玩家扮演希望获得更多馅料的饺子，通过收集和对战互相争夺馅料。",
     tagline: {
       en: "Sing, dance, and fight over the fillings!",
       zh: "歌唱、舞蹈、互相争夺吧！"
     },
     controls: {
-      en: "Hold the spin key to rotate a drum and tap the hit key to strike. Drum 1: A/D/S; Drum 2: Numpad 7/9/8; Drum 3: Numpad 4/6/5; Drum 4: Numpad 1/3/2.",
-      zh: "按住旋转键使鼓盘转动，点按击打键敲击。鼓 1：A/D/S；鼓 2：小键盘 7/9/8；鼓 3：小键盘 4/6/5；鼓 4：小键盘 1/3/2。"
+      en: "Drum 1 — hold A to rotate left; hold D to rotate right; tap S to hit.\nDrum 2 — hold Numpad 7 to rotate left; hold Numpad 9 to rotate right; tap Numpad 8 to hit.\nDrum 3 — hold Numpad 4 to rotate left; hold Numpad 6 to rotate right; tap Numpad 5 to hit.\nDrum 4 — hold Numpad 1 to rotate left; hold Numpad 3 to rotate right; tap Numpad 2 to hit.",
+      zh: "鼓 1 — 按住 A 左转；按住 D 右转；点按 S 击打。\n鼓 2 — 按住小键盘 7 左转；按住小键盘 9 右转；点按小键盘 8 击打。\n鼓 3 — 按住小键盘 4 左转；按住小键盘 6 右转；点按小键盘 5 击打。\n鼓 4 — 按住小键盘 1 左转；按住小键盘 3 右转；点按小键盘 2 击打。"
     },
     website: "https://www.jamodrum.net/",
-    download: "https://github.com/AsagamiY/bvw-game-builds/releases/tag/r4-dumpling-samurai-v1.6-preview",
+    trailer: "assets/dumpling-samurai-gameplay-web.mp4",
     notice: {
-      en: "A device pairing issue can cause sensitivity problems when playing with a keyboard and numpad. For now, we recommend watching the trailer instead of playing. This issue is being fixed.",
-      zh: "由于设备配对问题，使用键盘和小键盘游玩时可能会出现灵敏度问题。目前建议先观看预告片，而不是实际游玩。此问题正在修复中。"
+      en: "A device pairing issue can cause sensitivity problems with keyboard and numpad input. The current build is not recommended for play while this is being fixed. Watch the gameplay video below; the download link is temporarily removed.",
+      zh: "设备配对问题可能导致键盘和小键盘输入灵敏度异常。问题修复前不建议游玩当前版本。请先观看下方实机演示；下载入口暂时移除。"
     }
   }
 };
@@ -74,9 +75,9 @@ if (dialog) {
       const dialogTitle = dialog.querySelector("#dialog-title");
       dialogTitle.setAttribute("aria-label", project.title);
       dialogTitle.querySelector(".dialog-title-image").src = project.titleImage;
-      dialog.querySelector(".dialog-description").textContent = project.description;
+      setDescription(dialog.querySelector(".dialog-description"), project.description, project.videoLink);
       const chineseDescription = dialog.querySelector(".dialog-description-zh");
-      chineseDescription.textContent = project.descriptionZh || "";
+      setDescription(chineseDescription, project.descriptionZh || "", project.videoLink);
       chineseDescription.hidden = !project.descriptionZh;
       const controls = dialog.querySelector(".project-controls");
       controls.hidden = !project.controls;
@@ -96,6 +97,13 @@ if (dialog) {
         projectLink.hidden = false;
       } else {
         projectLink.hidden = true;
+      }
+      const projectTrailerLink = dialog.querySelector(".project-trailer-link");
+      if (project.trailer) {
+        projectTrailerLink.href = project.trailer;
+        projectTrailerLink.hidden = false;
+      } else {
+        projectTrailerLink.hidden = true;
       }
       const downloadLink = dialog.querySelector(".project-download-link");
       if (project.download) {
@@ -120,145 +128,70 @@ if (dialog) {
   });
 }
 
-// This is the WORKS page's grain shader, adapted from the saved public page source.
-function initNoise() {
-  let canvas = document.querySelector(".noise-canvas");
-  const reducedMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
-  const gl = canvas.getContext("webgl", { alpha: true, antialias: false, depth: false, stencil: false, powerPreference: "low-power" });
-  if (!gl) return initNoiseFallback(canvas);
-
-  const vertexSource = `
-    attribute vec2 aPosition;
-    varying vec2 vUv;
-    void main() {
-      vUv = aPosition * 0.5 + 0.5;
-      gl_Position = vec4(aPosition, 0.0, 1.0);
-    }
-  `;
-  const fragmentSource = `
-    #ifdef GL_FRAGMENT_PRECISION_HIGH
-    precision highp float;
-    #else
-    precision mediump float;
-    #endif
-    uniform vec2 uMouse;
-    uniform vec2 uResolution;
-    uniform float uPixelRatio;
-    uniform float uTime;
-    uniform float uGlobalAlpha;
-    uniform float uNrwPower;
-    uniform float uIntroPower;
-    varying vec2 vUv;
-    float rand(vec2 co) {
-      float a = 12.9898;
-      float b = 78.233;
-      float c = 43758.5453;
-      float dt = dot(co.xy, vec2(a, b));
-      float sn = mod(dt, 3.14159);
-      return fract((sin(sn) * c) + uTime * 0.5);
-    }
-    float circle(in vec2 st, in float radius, in float blurriness) {
-      vec2 dist = st;
-      return 1.0 - smoothstep(radius - (radius * blurriness),
-                              radius + (radius * blurriness),
-                              dot(dist, dist) * 4.0);
-    }
-    void main() {
-      vec2 res = uResolution * uPixelRatio;
-      vec2 st = gl_FragCoord.xy / res.xy - vec2(0.5);
-      st.y *= uResolution.y / uResolution.x;
-      vec2 mouse = uMouse * -0.5;
-      mouse.y *= uResolution.y / uResolution.x;
-      vec2 circlePos = st + mouse;
-      float c = circle(circlePos, 0.01, 80.0) * uNrwPower;
-      float r = mix(rand(vUv), c, 0.5);
-      float alpha = r < uGlobalAlpha ? 1.0 : 0.0;
-      gl_FragColor = vec4(r, r, r, alpha);
-    }
-  `;
-  const compile = (type, source) => {
-    const shader = gl.createShader(type);
-    gl.shaderSource(shader, source);
-    gl.compileShader(shader);
-    if (!gl.getShaderParameter(shader, gl.COMPILE_STATUS)) {
-      gl.deleteShader(shader);
-      return null;
-    }
-    return shader;
-  };
-  const vertexShader = compile(gl.VERTEX_SHADER, vertexSource);
-  const fragmentShader = compile(gl.FRAGMENT_SHADER, fragmentSource);
-  if (!vertexShader || !fragmentShader) return initNoiseFallback(canvas);
-
-  const program = gl.createProgram();
-  gl.attachShader(program, vertexShader);
-  gl.attachShader(program, fragmentShader);
-  gl.linkProgram(program);
-  if (!gl.getProgramParameter(program, gl.LINK_STATUS)) return initNoiseFallback(canvas);
-
-  const buffer = gl.createBuffer();
-  gl.bindBuffer(gl.ARRAY_BUFFER, buffer);
-  gl.bufferData(gl.ARRAY_BUFFER, new Float32Array([-1, -1, 1, -1, -1, 1, 1, 1]), gl.STATIC_DRAW);
-  gl.useProgram(program);
-  gl.enable(gl.BLEND);
-  gl.blendFunc(gl.SRC_ALPHA, gl.ONE_MINUS_SRC_ALPHA);
-  const position = gl.getAttribLocation(program, "aPosition");
-  gl.enableVertexAttribArray(position);
-  gl.vertexAttribPointer(position, 2, gl.FLOAT, false, 0, 0);
-  const uniforms = {
-    mouse: gl.getUniformLocation(program, "uMouse"),
-    resolution: gl.getUniformLocation(program, "uResolution"),
-    pixelRatio: gl.getUniformLocation(program, "uPixelRatio"),
-    time: gl.getUniformLocation(program, "uTime"),
-    globalAlpha: gl.getUniformLocation(program, "uGlobalAlpha"),
-    nrwPower: gl.getUniformLocation(program, "uNrwPower")
-  };
-  let pixelRatio = 1;
-  let mouseX = 0;
-  let mouseY = 0;
-  const resize = () => {
-    const devicePixelRatio = window.devicePixelRatio || 1;
-    pixelRatio = devicePixelRatio < 2 ? 1.5 : Math.min(2, devicePixelRatio);
-    canvas.width = Math.ceil(window.innerWidth * pixelRatio);
-    canvas.height = Math.ceil(window.innerHeight * pixelRatio);
-    gl.viewport(0, 0, canvas.width, canvas.height);
-    gl.uniform2f(uniforms.resolution, window.innerWidth, window.innerHeight);
-    gl.uniform1f(uniforms.pixelRatio, pixelRatio);
-    gl.uniform1f(uniforms.globalAlpha, window.innerWidth <= 834 ? 0.25 : 0.24);
-    gl.uniform1f(uniforms.nrwPower, window.innerWidth <= 834 ? 0 : 1);
-    gl.clearColor(0, 0, 0, 0);
-  };
-  let running = false;
-  const render = (now) => {
-    if ((!running && !reducedMotion) || document.hidden) return;
-    gl.uniform2f(uniforms.mouse, mouseX, mouseY);
-    gl.uniform1f(uniforms.time, reducedMotion ? 1.0 : now / 1000);
-    gl.clear(gl.COLOR_BUFFER_BIT);
-    gl.drawArrays(gl.TRIANGLE_STRIP, 0, 4);
-    if (reducedMotion) return;
-    requestAnimationFrame(render);
-  };
-  const start = () => {
-    if (running || reducedMotion) return;
-    running = true;
-    requestAnimationFrame(render);
-  };
-  const stop = () => { running = false; };
-  window.addEventListener("resize", resize, { passive: true });
-  window.addEventListener("mousemove", (event) => {
-    if (window.innerWidth <= 834) return;
-    mouseX = event.clientX / window.innerWidth * 2 - 1;
-    mouseY = -event.clientY / window.innerHeight * 2 + 1;
-  }, { passive: true });
-  document.addEventListener("visibilitychange", () => document.hidden ? stop() : start());
-  resize();
-  if (reducedMotion) render(0);
-  else start();
+function setDescription(element, text, videoLink) {
+  element.replaceChildren();
+  const phrase = "Xbox Adaptive Controller";
+  const index = videoLink ? text.indexOf(phrase) : -1;
+  if (index < 0) {
+    element.textContent = text;
+    return;
+  }
+  element.append(document.createTextNode(text.slice(0, index)));
+  const link = document.createElement("a");
+  link.className = "inline-media-link";
+  link.href = videoLink;
+  link.target = "_blank";
+  link.rel = "noopener noreferrer";
+  link.textContent = phrase;
+  link.setAttribute("aria-label", phrase + " — watch Escape March XAC gameplay video");
+  element.append(link, document.createTextNode(text.slice(index + phrase.length)));
 }
 
-function initNoiseFallback(canvas) {
-  canvas.style.backgroundImage = 'url("data:image/svg+xml,%3Csvg viewBox=%220 0 180 180%22 xmlns=%22http://www.w3.org/2000/svg%22%3E%3Cfilter id=%22n%22%3E%3CfeTurbulence type=%22fractalNoise%22 baseFrequency=%22.9%22 numOctaves=%223%22 stitchTiles=%22stitch%22/%3E%3C/filter%3E%3Crect width=%22100%25%22 height=%22100%25%22 filter=%22url(%23n)%22 opacity=%22.14%22/%3E%3C/svg%3E")';
-  canvas.style.backgroundSize = "180px 180px";
+// Original canvas-generated grain texture for the portfolio background.
+function initNoise() {
+  const canvas = document.querySelector(".noise-canvas");
+  const context = canvas?.getContext("2d", { alpha: true });
+  if (!canvas || !context) return;
+  const reducedMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+  let imageData;
+  let animationTimer = 0;
+  const drawNoise = () => {
+    if (!imageData) return;
+    const pixels = imageData.data;
+    for (let i = 0; i < pixels.length; i += 4) {
+      const visible = Math.random() < 0.1;
+      const shade = visible ? 145 + Math.floor(Math.random() * 111) : 0;
+      pixels[i] = shade;
+      pixels[i + 1] = shade;
+      pixels[i + 2] = shade;
+      pixels[i + 3] = visible ? 220 : 0;
+    }
+    context.putImageData(imageData, 0, 0);
+  };
+  const resize = () => {
+    const pixelRatio = Math.min(window.devicePixelRatio || 1, 1.2);
+    canvas.width = Math.max(1, Math.ceil(window.innerWidth * pixelRatio));
+    canvas.height = Math.max(1, Math.ceil(window.innerHeight * pixelRatio));
+    imageData = context.createImageData(canvas.width, canvas.height);
+    drawNoise();
+  };
+  const start = () => {
+    if (animationTimer || reducedMotion) return;
+    const tick = () => {
+      if (document.hidden) return;
+      drawNoise();
+      animationTimer = window.setTimeout(tick, 100);
+    };
+    tick();
+  };
+  const stop = () => {
+    window.clearTimeout(animationTimer);
+    animationTimer = 0;
+  };
+  window.addEventListener("resize", resize, { passive: true });
+  document.addEventListener("visibilitychange", () => document.hidden ? stop() : start());
+  resize();
+  if (!reducedMotion) start();
 }
 
 initNoise();

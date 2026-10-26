@@ -4,7 +4,7 @@ html{scroll-behavior:smooth}
 body{margin:0;min-height:100vh;overflow-x:hidden;background:var(--bg);color:var(--text);font-family:var(--sans);font-size:14px}
 a{color:inherit;text-decoration:none}
 button{font:inherit;color:inherit}
-.noise-canvas{position:fixed;inset:0;width:100%;height:100%;z-index:0;pointer-events:none}
+.noise-canvas{position:fixed;inset:0;width:100%;height:100%;z-index:0;pointer-events:none;opacity:.2}
 .loading-layer{position:fixed;inset:0;z-index:1;background:#191919;opacity:1;pointer-events:none;transition:opacity .8s ease}
 .loading-layer.is-loaded{opacity:0}
 .site-header{position:fixed;top:25px;left:24px;z-index:5;pointer-events:none}
@@ -35,6 +35,8 @@ main{position:relative;z-index:2}
 .project-dialog h2{margin:26px 0 18px;line-height:1}
 .dialog-title-image{display:block;width:auto;height:clamp(36px,6vw,64px);max-width:100%;object-fit:contain;object-position:left}
 .dialog-description{max-width:500px;color:rgba(242,240,235,.76);font-size:15px;line-height:1.7}
+.inline-media-link{color:var(--text);text-decoration:underline;text-decoration-color:rgba(242,240,235,.45);text-underline-offset:3px}
+.inline-media-link:hover,.inline-media-link:focus-visible{color:#8bc9c7;text-decoration-color:currentColor}
 .dialog-description-zh[hidden],.project-controls[hidden],.project-tagline[hidden]{display:none}
 .project-tagline{max-width:500px;margin-top:10px;color:var(--muted);font-size:12px;line-height:1.65}
 .project-tagline p{margin:0}

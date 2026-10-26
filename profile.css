@@ -5,6 +5,13 @@
 .profile-bio{grid-column:1;grid-row:2;max-width:420px;color:rgba(242,240,235,.8);font-size:clamp(13px,.94vw,15px);line-height:1.9}
 .profile-bio p{margin:0}
 .profile-bio p+p{margin-top:14px;color:var(--muted)}
+.profile-contact{display:grid;justify-items:start;gap:9px;margin-top:26px;padding-top:18px;border-top:1px solid var(--line);font:500 10px/1.55 var(--mono)}
+.contact-role{display:grid;gap:5px;margin:0 0 3px}
+.contact-role span{color:var(--muted);font-size:8px;letter-spacing:.08em}
+.contact-role strong{font:500 13px var(--sans);letter-spacing:0}
+.profile-contact a{color:var(--text);text-decoration:underline;text-decoration-color:rgba(242,240,235,.3);text-underline-offset:4px;transition:color .2s,text-decoration-color .2s}
+.profile-contact a:hover,.profile-contact a:focus-visible{color:#8bc9c7;text-decoration-color:currentColor}
+.profile-contact a:focus-visible{outline:1px solid var(--text);outline-offset:4px}
 .portrait{grid-column:2;grid-row:1 / span 2;position:relative;width:min(100%,520px);margin:0 0 0 auto}
 .portrait img{display:block;width:100%;height:auto;aspect-ratio:1;object-fit:cover}
 .portrait-name{position:absolute;top:0;left:-27px;display:flex;align-items:center;gap:.72em;writing-mode:vertical-rl;font-size:12px;line-height:1;letter-spacing:.04em}
