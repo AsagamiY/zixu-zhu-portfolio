@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#191919">
+  <meta name="description" content="Zixu Zhu — game designer and prototype developer at CMU ETC.">
+  <title>Profile — Zixu Zhu</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="profile.css">
+</head>
+<body>
+  <canvas class="noise-canvas" aria-hidden="true"></canvas>
+  <div class="loading-layer" aria-hidden="true"></div>
+  <header class="site-header"><div class="wordmark"><img class="wordmark-image" src="assets/type-images/wordmark.png" alt="ZIXU ZHU"></div></header>
+
+  <main>
+    <section class="profile-page" aria-label="Profile">
+      <div class="profile-hero">
+        <h1 class="profile-title"><img src="assets/type-images/profile-name.png" alt="Zixu Zhu"></h1>
+        <figure class="portrait">
+          <img src="assets/zixu-zhu-photo.webp" alt="Profile image for Haru" width="1200" height="1200">
+          <figcaption class="portrait-name" lang="ja">ハル</figcaption>
+        </figure>
+        <div class="profile-bio">
+          <p lang="zh-CN">卡内基梅隆大学娱乐技术中心（CMU ETC）在读，从事游戏设计与原型落地工作。</p>
+          <p lang="en">Currently studying at Carnegie Mellon University's Entertainment Technology Center (CMU ETC), working on game design and turning concepts into playable prototypes.</p>
+        </div>
+      </div>
+
+      <section class="profile-projects" aria-labelledby="projects-title">
+        <h2 id="projects-title"><img src="assets/type-images/projects.png" alt="Projects"></h2>
+        <ol class="project-list">
+          <li>
+            <article class="project-entry">
+              <div class="project-meta"><span>CMU ETC · GAME DESIGN / PROGRAMMING</span><time datetime="2026-08">2026.08 — PRESENT</time></div>
+              <h3>SpellChemist</h3>
+              <p lang="en">A two-player turn-based strategy game for the BOARD tabletop console, built in Unity. Work includes game design, rapid prototyping, combat systems, and character customization and build systems.</p>
+              <p lang="zh-CN">使用 Unity 为 BOARD 桌面游戏主机开发双人回合制策略游戏，参与游戏设计、战斗系统，以及角色自定义与 Build 系统的开发。</p>
+            </article>
+          </li>
+          <li>
+            <article class="project-entry">
+              <div class="project-meta"><span>CMU ETC × CARNEGIE MUSEUM OF NATURAL HISTORY</span><time datetime="2026-01">2026.01 — 2026.06</time></div>
+              <h3>HistOracle</h3>
+              <p lang="en">A historical narrative strategy card game inspired by Shang Dynasty oracle bone culture. Game designer and solo programmer, responsible for core architecture, card interactions, data management, and interaction logic.</p>
+              <p lang="zh-CN">与卡内基自然历史博物馆合作开发以商朝甲骨文化为核心的历史叙事策略卡牌游戏，担任游戏设计与独立程序，负责核心架构、卡牌互动、数据管理和交互逻辑。</p>
+            </article>
+          </li>
+          <li>
+            <article class="project-entry">
+              <div class="project-meta"><span>CMU ETC · GAMEPLAY PROGRAMMING / DESIGN</span><time datetime="2025-08">2025.08 — 2025.12</time></div>
+              <h3>Building Virtual Worlds（BVW）</h3>
+              <p lang="en">Four rapid game prototypes made in interdisciplinary teams, including a Jam-O-Drum multiplayer game, an Xbox Adaptive Controller escape game, and an arcade quiz racer.</p>
+              <p lang="zh-CN">在跨学科团队中完成四个快速游戏原型，包括 Jam-O-Drum 多人对抗游戏、Xbox Adaptive Controller 单人逃生游戏和街机竞速答题游戏。</p>
+            </article>
+          </li>
+        </ol>
+        <a class="works-back" href="index.html#top">WORKS</a>
+      </section>
+    </section>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>

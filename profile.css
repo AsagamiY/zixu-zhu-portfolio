@@ -1,0 +1,26 @@
+.profile-page{width:min(84vw,1110px);margin:0 auto;padding:clamp(170px,20vh,260px) 0 110px}
+.profile-hero{display:grid;grid-template-columns:minmax(0,.88fr) minmax(0,1fr);column-gap:min(8vw,110px);align-items:start}
+.profile-title{grid-column:1;grid-row:1;margin:0 0 24px;line-height:1}
+.profile-title img{display:block;width:auto;height:clamp(40px,5.1vw,68px);max-width:100%}
+.profile-bio{grid-column:1;grid-row:2;max-width:420px;color:rgba(242,240,235,.8);font-size:clamp(13px,.94vw,15px);line-height:1.9}
+.profile-bio p{margin:0}
+.profile-bio p+p{margin-top:14px;color:var(--muted)}
+.portrait{grid-column:2;grid-row:1 / span 2;position:relative;width:min(100%,520px);margin:0 0 0 auto}
+.portrait img{display:block;width:100%;height:auto;aspect-ratio:1;object-fit:cover}
+.portrait-name{position:absolute;top:0;left:-27px;display:flex;align-items:center;gap:.72em;writing-mode:vertical-rl;font-size:12px;line-height:1;letter-spacing:.04em}
+.portrait-name::before{content:"";display:block;width:6px;height:6px;flex:none;border-radius:50%;background:#377373}
+.profile-projects{margin-top:clamp(115px,12.5vw,190px)}
+.profile-projects h2{margin:0;line-height:1}
+.profile-projects h2 img{display:block;width:auto;height:clamp(18px,1.5vw,23px);max-width:100%}
+.project-list{width:min(58vw,770px);margin:42px 0 0;padding:0;border-top:1px solid var(--line);list-style:none}
+.project-list>li{padding:25px 0 29px;border-bottom:1px solid var(--line)}
+.project-meta{display:flex;justify-content:space-between;gap:18px;color:var(--muted);font:500 9px/1.5 var(--mono);letter-spacing:.025em}
+.project-meta time{flex:none;text-align:right}
+.project-entry h3{margin:16px 0 10px;font-size:clamp(17px,1.45vw,21px);font-weight:500;letter-spacing:-.03em}
+.project-entry p{max-width:690px;margin:0;color:rgba(242,240,235,.76);font-size:12px;line-height:1.8}
+.project-entry p+p{margin-top:8px;color:var(--muted)}
+.works-back{display:flex;align-items:center;justify-content:center;width:128px;height:58px;margin-top:46px;border:1px solid #377373;border-radius:50%;font:500 11px var(--mono);letter-spacing:.07em;transition:background .2s,color .2s}
+.works-back:hover,.works-back:focus-visible{background:#377373;color:#fff}
+.works-back:focus-visible{outline:1px solid var(--text);outline-offset:4px}
+@media(max-width:1050px){.profile-page{width:min(84vw,760px);padding-top:24vh}.profile-hero{column-gap:6vw}.profile-title img{height:clamp(38px,6vw,58px)}.portrait{width:100%}.profile-projects{margin-top:14vw}.project-list{width:70vw}.project-meta{font-size:8px}}
+@media(max-width:620px){.profile-page{width:calc(100vw - 36px);padding:137px 0 64px}.profile-hero{display:flex;flex-direction:column;gap:0}.profile-title{margin:0}.profile-title img{height:42px}.portrait{width:calc(100% + 36px);max-width:none;margin:14vw 0 0 -18px}.portrait-name{top:-28px;left:18px;align-items:center;writing-mode:horizontal-tb;font-size:11px}.portrait-name::before{width:4px;height:4px}.profile-bio{max-width:480px;margin-top:10vw;font-size:13px;line-height:1.85}.profile-bio p+p{margin-top:12px}.profile-projects{margin-top:23vw}.profile-projects h2 img{height:18px}.project-list{width:100%;margin-top:34px}.project-list>li{padding:20px 0 23px}.project-meta{align-items:flex-start;flex-direction:column;gap:5px;font-size:8px}.project-meta time{text-align:left}.project-entry h3{margin:12px 0 9px;font-size:18px}.project-entry p{font-size:11px;line-height:1.8}.works-back{width:116px;height:52px;margin-top:35px}}
