@@ -5,7 +5,8 @@ const projects = {
     titleImage: "assets/type-images/historacle.png",
     description: "HistOracle is a digital strategy card game developed at Carnegie Mellon University's Entertainment Technology Center with the Carnegie Museum of Natural History. Inspired by the museum's 3,000-year-old Oracle Bones, it brings Shang Dynasty rituals and history to life through interactive storytelling. Players become royal diviners and make predictions that shape the kingdom's future in King Wu Ding's court.",
     descriptionZh: "HistOracle 是卡内基梅隆大学娱乐技术中心与卡内基自然历史博物馆合作开发的数字策略卡牌游戏。游戏以博物馆收藏的三千年历史甲骨为灵感，通过互动叙事呈现商朝的仪式与历史。玩家扮演王室占卜师，在武丁王朝中做出影响王国未来的预测。",
-    website: "https://projects.etc.cmu.edu/historacle/"
+    website: "https://projects.etc.cmu.edu/historacle/",
+    download: "https://github.com/AsagamiY/historacle-p1-build/releases/tag/v1.96-test"
   },
   "escape-march": {
     index: "BVW",
@@ -13,6 +14,7 @@ const projects = {
     titleImage: "assets/type-images/escape-march.png",
     description: "A single-player escape game inspired by The Shawshank Redemption, designed for the Xbox Adaptive Controller.",
     descriptionZh: "一款受《肖申克的救赎》启发、为 Xbox Adaptive Controller 设计的单人逃生游戏。",
+    download: "https://github.com/AsagamiY/bvw-game-builds/releases/tag/r1-escape-march-v1.0",
     controls: {
       en: "Press Space to start, E to pick up the hammer, and Q to hit the wall.",
       zh: "按 Space 开始，按 E 拾取锤子，按 Q 击打墙壁。"
@@ -24,6 +26,7 @@ const projects = {
     titleImage: "assets/type-images/big-top-quiz.png",
     description: "A small game for a roller arcade console where players race on a unicycle while answering questions. Question difficulty changes dynamically based on the player's previous answers.",
     descriptionZh: "一款为滚轮街机 console 开发的独轮车竞速答题小游戏，题目难度会根据玩家之前的答题情况动态变化。",
+    download: "https://github.com/AsagamiY/bvw-game-builds/releases/tag/r3-big-top-quiz-v1.0",
     controls: {
       en: "Start screen: Press P, O, or I; the first press opens the instructions and the next enters MainGame. In game, move the mouse forward to speed up, back to slow down, and left or right to steer. Press E to close the tutorial and start riding. Press P, O, or I to answer A, B, or C. Esc or Alt+F4 quits.",
       zh: "开始界面：按 P、O 或 I，第一次进入操作说明，再按一次进入 MainGame。游戏中，鼠标向前移动加速、向后移动减速、左右移动转向。按 E 关闭教学并开始骑行；按 P、O、I 分别选择 A、B、C。按 Esc 或 Alt+F4 退出。"
@@ -44,6 +47,7 @@ const projects = {
       zh: "按住旋转键使鼓盘转动，点按击打键敲击。鼓 1：A/D/S；鼓 2：小键盘 7/9/8；鼓 3：小键盘 4/6/5；鼓 4：小键盘 1/3/2。"
     },
     website: "https://www.jamodrum.net/",
+    download: "https://github.com/AsagamiY/bvw-game-builds/releases/tag/r4-dumpling-samurai-v1.0",
     notice: {
       en: "A device pairing issue can cause sensitivity problems when playing with a keyboard and numpad. For now, we recommend watching the trailer instead of playing. This issue is being fixed.",
       zh: "由于设备配对问题，使用键盘和小键盘游玩时可能会出现灵敏度问题。目前建议先观看预告片，而不是实际游玩。此问题正在修复中。"
@@ -92,6 +96,13 @@ if (dialog) {
         projectLink.hidden = false;
       } else {
         projectLink.hidden = true;
+      }
+      const downloadLink = dialog.querySelector(".project-download-link");
+      if (project.download) {
+        downloadLink.href = project.download;
+        downloadLink.hidden = false;
+      } else {
+        downloadLink.hidden = true;
       }
       const projectNotice = dialog.querySelector(".project-notice");
       projectNotice.hidden = !project.notice;
